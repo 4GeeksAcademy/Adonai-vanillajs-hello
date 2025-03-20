@@ -1,5 +1,41 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: blue;
+
+body {
+    background: green;
+}
+
+.el-div {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.carta {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 100px;
+
+
+
+}
+
+.simboloArriba {
+    text-align: left;
+
+}
+
+.simboloAbajo {
+    text-align: right;
+}
+
+.numero {
+    font-size: 120px;
 }
